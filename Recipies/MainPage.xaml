@@ -1,0 +1,58 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Recipies.MainPage"
+             Title="Happy B-Day Collection">
+    <ContentPage.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="#000000" Offset="0.0" />
+            <GradientStop Color="#111111" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="0">
+            <Grid>
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" Padding="0">
+                    <StackLayout Orientation="Horizontal" Spacing="0">
+                        <Image Source="Resources/burger.jpg" HeightRequest="250" WidthRequest="{Binding Width}" Aspect="Fill" />
+                        <Image Source="Resources/pasta.jpg" HeightRequest="250" WidthRequest="{Binding Width}" Aspect="Fill" />
+                        <Image Source="Resources/pizza.jpg" HeightRequest="250" WidthRequest="{Binding Width}" Aspect="Fill" />
+                        <Image Source="Resources/salad.jpg" HeightRequest="250" WidthRequest="{Binding Width}" Aspect="Fill" />
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+            <StackLayout Spacing="5" HorizontalOptions="CenterAndExpand">
+                <Label Text="Happy B-Day Collection" FontSize="26" FontAttributes="Bold" TextColor="White" />
+                <Label Text="A collection of recipes for the week ending" FontSize="16" TextColor="#CCCCCC" HorizontalTextAlignment="Center" />
+            </StackLayout>
+
+            <SearchBar Placeholder="Search Recipes by Name / Ingredients" 
+                       TextColor="White" 
+                       PlaceholderColor="#888888" 
+                       BackgroundColor="#1A1A1A"
+                       TextChanged="OnSearchTextChanged" />
+
+
+            <CollectionView ItemsSource="{Binding FRecipes}" SelectionMode="Single" SelectionChanged="OnRecipeSelected">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="15" VerticalItemSpacing="15" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="0" CornerRadius="15" HasShadow="True" BackgroundColor="#1A1A1A">
+                            <Grid>
+                                <Image Source="{Binding Image}" HeightRequest="200" Aspect="AspectFill" />
+                                <StackLayout VerticalOptions="End" BackgroundColor="#000000AA" Padding="5">
+                                    <Label Text="{Binding Name}" FontSize="14" FontAttributes="Bold" TextColor="White" LineBreakMode="WordWrap" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
