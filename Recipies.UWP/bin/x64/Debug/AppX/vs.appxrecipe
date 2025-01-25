@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3AO1LK5</Machine>
+    <WindowsUser>ДЖЕМИЛЕ</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=70662A84-1D7B-4E04-86BE-174566ECD839</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>9A496A86062903C3A9FEC665472431786C8D5B15D2F75233CE925A3C1C325AE1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21226C78-0C83-4F03-8479-7DF8A8D45C55_1.0.0.0_x64__m19e1dsq1fty8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21226C78-0C83-4F03-8479-7DF8A8D45C55_m19e1dsq1fty8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21226C78-0C83-4F03-8479-7DF8A8D45C55</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=70662A84-1D7B-4E04-86BE-174566ECD839</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T16:04:42.958</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\Recipies.UWP.exe">
+      <PackagePath>entrypoint\Recipies.UWP.exe</PackagePath>
+      <Modified>2025-01-25T16:04:40.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-05T01:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.essentials\1.7.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2021-07-13T15:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2021-10-14T09:54:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2021-10-14T09:54:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2021-10-14T09:55:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2021-10-14T09:55:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies\bin\Debug\netstandard2.0\Recipies.dll">
+      <PackagePath>Recipies.dll</PackagePath>
+      <Modified>2025-01-25T07:03:57.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2024-02-21T18:52:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2021-10-14T09:49:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\burger.jpg">
+      <PackagePath>Assets\burger.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\pasta.jpg">
+      <PackagePath>Assets\pasta.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:21.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:21.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\salad.jpg">
+      <PackagePath>Assets\salad.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:21.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\burger.jpg">
+      <PackagePath>Resources\burger.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\chickensalad.jpg">
+      <PackagePath>Resources\chickensalad.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\cookies.jpg">
+      <PackagePath>Resources\cookies.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\frenchtoast.jpg">
+      <PackagePath>Resources\frenchtoast.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\pancakes.jpg">
+      <PackagePath>Resources\pancakes.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\pasta.jpg">
+      <PackagePath>Resources\pasta.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\pizza.jpg">
+      <PackagePath>Resources\pizza.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\salad.jpg">
+      <PackagePath>Resources\salad.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\spaghetti.jpg">
+      <PackagePath>Resources\spaghetti.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Resources\stirfry.jpg">
+      <PackagePath>Resources\stirfry.jpg</PackagePath>
+      <Modified>2025-01-25T07:01:28.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <Modified>2025-01-25T07:01:21.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-01-25T07:01:21.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2025-01-25T07:01:28.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\Recipies.UWP.xr.xml">
+      <PackagePath>Recipies.UWP.xr.xml</PackagePath>
+      <Modified>2025-01-25T07:01:27.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2025-01-25T16:04:40.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2025-01-25T16:04:40.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2024-02-21T18:59:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2024-02-21T21:46:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2020-07-10T00:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2025-01-25T16:04:41.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ДЖЕМИЛЕ\Desktop\Recipies\Recipies.UWP\bin\x64\Debug\Core\Recipies.UWP.exe">
+      <PackagePath>Recipies.UWP.exe</PackagePath>
+      <Modified>2025-01-25T16:04:42.946</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42007.9001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ДЖЕМИЛЕ\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
