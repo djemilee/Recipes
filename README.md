@@ -12,3 +12,5 @@ Run the project:
   4. Login credentials:
       username -> admin / 
       password -> admin
+     
+  5. For starting the video, you first should download it and then start it.
