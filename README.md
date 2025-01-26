@@ -10,5 +10,5 @@ Run the project:
      device same as for ios you must have ios mac.
      
   4. Login credentials:
-      -username -> admin
+      -username -> admin / 
       -password -> admin
